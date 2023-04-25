@@ -2,17 +2,20 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
 	<title>Meu Jogo</title>
-	<style>
-		canvas {
-			border: 1px solid black;
-		}
-	</style>
 </head>
 <body>
-    <h1>Meu Jogo</h1>
-    <canvas id="canvas" ></canvas>
+    <div id="canvas-container">
+        <h1>Meu Jogo</h1>
+        <canvas id="canvas" ></canvas>
+        <p>Maior Pontuação: <span id="maior-pontuacao"></span></p>
+        <p>Menor Pontuação: <span id="menor-pontuacao"></span></p>
+    </div>
+    
     
 	<script src="jogo.js"></script>
+    
+
 </body>
 </html>
